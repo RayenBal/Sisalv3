@@ -12,3 +12,6 @@ frontend/.env
 # IDE / OS junk
 .DS_Store
 *.log
+**/*.pkl
+**/*.keras
+backend/
