@@ -1,0 +1,85 @@
+{
+    "created_at": "2025-06-27T15:29:57.738302",
+    "target_variables": [
+        "d18O_measurement",
+        "d13C_measurement",
+        "Mg_Ca_measurement",
+        "Sr_Ca_measurement"
+    ],
+    "metrics": {
+        "d18O_measurement": {
+            "r2": 0.9777023775096418,
+            "mae": 0.10518042298918004,
+            "rmse": 0.14867163800707103
+        },
+        "d13C_measurement": {
+            "r2": 0.9027601662029378,
+            "mae": 0.20345532495206856,
+            "rmse": 0.31563771868152135
+        },
+        "Mg_Ca_measurement": {
+            "r2": 0.9362584259156098,
+            "mae": 0.12166308960719764,
+            "rmse": 0.2510329904000078
+        },
+        "Sr_Ca_measurement": {
+            "r2": 0.9278831873889445,
+            "mae": 0.08657365531122672,
+            "rmse": 0.25508498838075866
+        }
+    },
+    "cv_results": {
+        "d18O_measurement": {
+            "cv_scores": [
+                0.9768777785799363,
+                0.9763976610653081,
+                0.977024754628198
+            ],
+            "mean_cv_score": 0.9767667314244809
+        },
+        "d13C_measurement": {
+            "cv_scores": [
+                0.8970869291645696,
+                0.8946275402034795,
+                0.898611172708344
+            ],
+            "mean_cv_score": 0.8967752140254643
+        },
+        "Mg_Ca_measurement": {
+            "cv_scores": [
+                0.9317157911753836,
+                0.9366574230710945,
+                0.9287253452005642
+            ],
+            "mean_cv_score": 0.9323661864823474
+        },
+        "Sr_Ca_measurement": {
+            "cv_scores": [
+                0.9222404919040893,
+                0.9384589733358986,
+                0.9218511508946575
+            ],
+            "mean_cv_score": 0.9275168720448818
+        }
+    },
+    "preprocessing_info": {
+        "dropped_columns": [
+            "sample_id",
+            "site_id",
+            "entity_id",
+            "site_name"
+        ],
+        "high_corr_features": [],
+        "label_encoders": {
+            "mineralogy": [
+                "aragonite",
+                "calcite"
+            ],
+            "monitoring": [
+                "no",
+                "unknown",
+                "yes"
+            ]
+        }
+    }
+}

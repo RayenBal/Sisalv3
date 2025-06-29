@@ -1,0 +1,32 @@
+{
+  "model": "XGBoost",
+  "target_variables": [
+    "d18O_measurement",
+    "d13C_measurement",
+    "Mg_Ca_measurement",
+    "Sr_Ca_measurement"
+  ],
+  "preprocessing_info": {
+    "numeric_columns": [
+      "d18O_measurement",
+      "d13C_measurement",
+      "Mg_Ca_measurement",
+      "Sr_Ca_measurement",
+      "P_Ca_measurement",
+      "U_Ca_measurement",
+      "Ba_Ca_measurement",
+      "Sr_isotopes_measurement",
+      "depth_sample",
+      "latitude",
+      "longitude",
+      "elevation"
+    ],
+    "categorical_columns": [
+      "mineralogy",
+      "monitoring"
+    ],
+    "feature_engineering": {
+      "dropped_high_corr": []
+    }
+  }
+}

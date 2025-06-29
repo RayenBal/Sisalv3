@@ -1,0 +1,9 @@
+Period,XGB Anomalies,BiLSTM Anomalies (90%),Consensus (XGB95 + BiLSTM90),Total Points
+GS-20,5,19,4,255
+GI-12,24,73,0,1075
+HS-1,284,395,1,5093
+YD,128,148,3,2723
+Stable 84-82,45,3,2,606
+Stable 55-51,210,34,0,3423
+Stable 47-46,82,81,1,740
+Stable 10-9,197,400,41,4126
